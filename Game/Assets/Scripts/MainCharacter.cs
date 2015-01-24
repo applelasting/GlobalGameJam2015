@@ -29,20 +29,24 @@ public class MainCharacter : MonoBehaviour {
         {
 
             transform.position = new Vector3(positionX + movementSpeed, positionY, 0);
+			positionX = transform.position.x;
         }
 
         // Move left
         if (Input.GetKey("a"))
         {
-            transform.position = new Vector3(positionX - movementSpeed, positionY, 0);
+			transform.position = new Vector3(positionX - movementSpeed, positionY, 0);
+			positionX = transform.position.x;
         }
 
         // Move up
         if (Input.GetKey("w"))
         {
-            transform.position = new Vector3(positionX, positionY + movementSpeed, 0);
+			transform.position = new Vector3(positionX, positionY + movementSpeed, 0);
+			positionY = transform.position.y;
 			if(Input.GetKey("w")){
 				transform.position = new Vector3(positionX, positionY + boostSpeed, 0);
+				positionY = transform.position.y;
 
 			}
         }
@@ -50,7 +54,8 @@ public class MainCharacter : MonoBehaviour {
         // Move down
         if (Input.GetKey("s"))
         {
-            transform.position = new Vector3(positionX, positionY - movementSpeed, 0);
+			transform.position = new Vector3(positionX, positionY - movementSpeed, 0);
+			positionY = transform.position.y;
         }
     }
 }

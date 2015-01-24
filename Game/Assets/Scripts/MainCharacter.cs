@@ -20,6 +20,7 @@ public class MainCharacter : MonoBehaviour {
         float positionX = transform.position.x;
         float positionY = transform.position.y;
         float movementSpeed = (float)0.4;
+		float boostSpeed = (float)1.5;
 
         // Move right
         if (Input.GetKey("d"))
@@ -38,6 +39,10 @@ public class MainCharacter : MonoBehaviour {
         if (Input.GetKey("w"))
         {
             transform.position = new Vector3(positionX, positionY + movementSpeed, 0);
+			if(Input.GetKey("w")){
+				transform.position = new Vector3(positionX, positionY + boostSpeed, 0);
+
+			}
         }
 
         // Move down

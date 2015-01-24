@@ -5,18 +5,24 @@ using UnityEngine.UI;
 public class score : MonoBehaviour {
 
 	Text TextScore;
-	int DisplayScore; 
+//	int DisplayScore; 
 
 	// Use this for initialization
 	void Start () {
-		DisplayScore = MainCharacter.score;
-		Debug.Log (DisplayScore);
+		Debug.Log (MainCharacter.score);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		TextScore.text = "Score: " + DisplayScore;
-	
+		if (MainCharacter.score % 50 == 0)
+		{
+			TextScore.text = "Score: " + MainCharacter.score;
+		}
+		MainCharacter.score += 1;
+//		Debug.Log (MainCharacter.score);
+
+
+		
 	}
 
 	// Get the text Component

@@ -4,6 +4,7 @@ using System.Collections;
 public class MainCharacter : MonoBehaviour {
 
 	public static int score;
+	//public static string name = "Jo";
 
 	// Use this for initialization
 	void Start () {
@@ -14,7 +15,7 @@ public class MainCharacter : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		//Debug.Log (score);
-		score ++;
+		//score ++;
 	}
 
     void FixedUpdate()

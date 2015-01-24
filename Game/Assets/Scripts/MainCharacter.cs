@@ -3,16 +3,18 @@ using System.Collections;
 
 public class MainCharacter : MonoBehaviour {
 
-
+	public static int score;
 
 	// Use this for initialization
 	void Start () {
+		score = 10;
 	
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        
+		//Debug.Log (score);
+		score ++;
 	}
 
     void FixedUpdate()

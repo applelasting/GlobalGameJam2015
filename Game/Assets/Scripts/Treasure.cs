@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class win : MonoBehaviour {
+public class Treasure : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -13,11 +13,14 @@ public class win : MonoBehaviour {
 	
 	}
 
-
 	void OnCollisionEnter2D(Collision2D coll) {
 		if (coll.gameObject.tag == "Player") 
 		{
 			Debug.Log ("Player has come");
+			Destroy (this.gameObject, (float) 0.25);
+
 		}
+		MainCharacter.score += 10000;
+		
 	}
 }

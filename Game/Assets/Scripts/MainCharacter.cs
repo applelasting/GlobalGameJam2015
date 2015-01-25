@@ -58,5 +58,16 @@ public class MainCharacter : MonoBehaviour {
 			transform.position = new Vector3(positionX, positionY - movementSpeed, 0);
 			positionY = transform.position.y;
         }
+
+		float multiplier = 100;
+		
+//		float moveHorizontal = Input.GetAxis ("Horizontal") * multiplier;
+//		float moveVertical = Input.GetAxis ("Vertical") * multiplier;
+//		
+//		//GameObject peanut = GameObject.Find ("Peanut");
+//		
+//		rigidbody2D.velocity = new Vector2 (moveHorizontal, moveVertical);
+//		rigidbody2D.AddForce (new Vector2(moveHorizontal,moveVertical));
+
     }
 }

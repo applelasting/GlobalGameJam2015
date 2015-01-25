@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
+
 
 public class Treasure : MonoBehaviour {
 
@@ -10,7 +12,7 @@ public class Treasure : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		MainCharacter.score ++;
 	}
 
 	void OnCollisionEnter2D(Collision2D coll) {
@@ -21,6 +23,16 @@ public class Treasure : MonoBehaviour {
 
 		}
 		MainCharacter.score += 10000;
+
+
+		UpdateInstruction ();
 		
+	}
+
+	void UpdateInstruction(){
+		GameObject instructions = GameObject.Find ("Instruction");
+		Text insText = instructions.GetComponent<Text> ();
+		insText.text = "Clue: \"Jack the Pirate\" \n Now Return to Map \n Nothing left to see!";
+
 	}
 }

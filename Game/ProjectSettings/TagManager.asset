@@ -4,6 +4,10 @@
 TagManager:
   tags:
   - box
+  - IceLevel
+  - BoxLevel
+  - DoorLevel
+  - MountainLevel
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX

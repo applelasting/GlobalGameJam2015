@@ -23,6 +23,7 @@ public class FishScore : MonoBehaviour {
         {
             // Game win
             scoreText.text = "You win!";
+            Hint.displayHint();
         }
 	}
 

@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\IceLevel\Animal.cs" />
      <Compile Include="Assets\Scripts\IceLevel\Fish.cs" />
      <Compile Include="Assets\Scripts\IceLevel\FishScore.cs" />
+     <Compile Include="Assets\Scripts\IceLevel\Hint.cs" />
      <Compile Include="Assets\Scripts\IceLevel\Penguin.cs" />
      <Compile Include="Assets\Scripts\MainCharacter.cs" />
      <Compile Include="Assets\Scripts\OpenIceLevel.cs" />

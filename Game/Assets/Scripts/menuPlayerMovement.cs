@@ -12,18 +12,13 @@ public class menuPlayerMovement : MonoBehaviour {
 		
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		//Debug.Log (score);
-		//score ++;
-	}
-	
+
 	void FixedUpdate()
 	{
 		float positionX = transform.position.x;
 		float positionY = transform.position.y;
 		float movementSpeed = (float)0.4;
-		//float boostSpeed = (float)1.5;
+		float boostSpeed = (float)1.5;
 		
 		// Move right
 		if (Input.GetKey("d"))
@@ -58,5 +53,19 @@ public class menuPlayerMovement : MonoBehaviour {
 			transform.position = new Vector3(positionX, positionY - movementSpeed, 0);
 			positionY = transform.position.y;
 		}
+
+
+			
+//		float multiplier = 100;
+//		
+//		float moveHorizontal = Input.GetAxis ("Horizontal") * multiplier;
+//		float moveVertical = Input.GetAxis ("Vertical") * multiplier;
+//		
+//		//GameObject peanut = GameObject.Find ("Peanut");
+//		
+//		rigidbody2D.velocity = new Vector2 (moveHorizontal, moveVertical);
+//		rigidbody2D.AddForce (new Vector2(moveHorizontal,moveVertical));
+
+			
 	}
 }

@@ -1,14 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/doorToMenu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/menuPlayerMovement.cs">
     <Files>
       <File FileName="Assets/Scripts/score.cs" Line="23" Column="1" />
-      <File FileName="Assets/Scripts/MainCharacter.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MainCharacter.cs" Line="64" Column="7" />
       <File FileName="Assets/Scripts/Treasure.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/menuPlayerMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/OpenIceLevel.cs" Line="13" Column="2" />
+      <File FileName="Assets/Scripts/menuPlayerMovement.cs" Line="68" Column="3" />
+      <File FileName="Assets/Scripts/OpenIceLevel.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/CheckName.cs" Line="1" Column="1" />
-      <File FileName="Assets/doorToMenu.cs" Line="18" Column="34" />
+      <File FileName="Assets/Scripts/doorToMenu.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

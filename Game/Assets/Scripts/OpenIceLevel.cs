@@ -20,7 +20,7 @@ public class OpenIceLevel : MonoBehaviour {
 
 			if(this.tag == "IceLevel"){
 				Debug.Log ("IceLevelInitiated");
-				Application.LoadLevel("JennyScene");
+				Application.LoadLevel("IceLevel");
 			}
 
 			if(this.tag == "BoxLevel"){

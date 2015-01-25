@@ -15,3 +15,5 @@ EditorBuildSettings:
     path: Assets/Scenes/AnswerInput.unity
   - enabled: 1
     path: Assets/Scenes/Win.unity
+  - enabled: 1
+    path: Assets/Scenes/IceLevel.unity

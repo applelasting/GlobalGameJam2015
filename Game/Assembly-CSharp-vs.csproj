@@ -46,7 +46,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Dialogue.cs" />
+     <Compile Include="Assets\Scripts\IceLevel\Animal.cs" />
+     <Compile Include="Assets\Scripts\IceLevel\Fish.cs" />
+     <Compile Include="Assets\Scripts\IceLevel\FishScore.cs" />
+     <Compile Include="Assets\Scripts\IceLevel\Penguin.cs" />
      <Compile Include="Assets\Scripts\MainCharacter.cs" />
+     <Compile Include="Assets\Scripts\Treasure.cs" />
+     <Compile Include="Assets\Scripts\score.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>

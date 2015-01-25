@@ -37,7 +37,7 @@ public class OpenIceLevel : MonoBehaviour {
 
 			if(this.tag == "DoorLevel"){
 				Debug.Log ("DoorLevel");
-				Application.LoadLevel("JennyScene");
+				Application.LoadLevel("AnswerInput");
 
 			}
 			//Destroy (this.gameObject, (float) 0.25);

@@ -32,7 +32,7 @@ public class Treasure : MonoBehaviour {
 	void UpdateInstruction(){
 		GameObject instructions = GameObject.Find ("Instruction");
 		Text insText = instructions.GetComponent<Text> ();
-		insText.text = "Clue: Jack the Pirate \n Now Return to Map \n Nothing left to see!";
+		insText.text = "Clue: \"Jack the Pirate\" \n Now Return to Map \n Nothing left to see!";
 
 	}
 }

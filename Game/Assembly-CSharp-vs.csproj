@@ -46,11 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CheckName.cs" />
      <Compile Include="Assets\Scripts\Dialogue.cs" />
      <Compile Include="Assets\Scripts\MainCharacter.cs" />
      <Compile Include="Assets\Scripts\OpenIceLevel.cs" />
      <Compile Include="Assets\Scripts\ReturnToMap.cs" />
      <Compile Include="Assets\Scripts\Treasure.cs" />
+     <Compile Include="Assets\Scripts\doorToMenu.cs" />
      <Compile Include="Assets\Scripts\menuPlayerMovement.cs" />
      <Compile Include="Assets\Scripts\score.cs" />
  <Reference Include="UnityEngine.UI">
